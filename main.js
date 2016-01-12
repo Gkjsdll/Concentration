@@ -72,6 +72,7 @@
         var top = Math.floor(cards.length/10)*96+"px";
         var $card = $('<div>')
         .addClass('card')
+        .addClass('no-select')
         .data('cardID', i)
         .css({top: top, left: left, backgroundRepeat: "no-repeat", backgroundPosition: "center"});
         cards.push($card);

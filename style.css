@@ -32,13 +32,17 @@ body {
   position: absolute;
   /*Prevents the user from selecting text on the cards*/
   cursor: pointer;
+  vertical-align: middle;
+}
+
+.no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  vertical-align: middle;
+  cursor: default;
 }
 
 body label {
